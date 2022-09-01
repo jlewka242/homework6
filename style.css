@@ -1,0 +1,25 @@
+* {
+    text-align: center;
+}
+
+ul {
+  list-style: none;  
+}
+
+#about-me {
+    background-color: #F6F6F6;
+}
+
+#portfolio {
+    background-color: #F6F6F6;
+}
+
+#denis-novik {
+    font-weight: 700;
+    font-size: 47.3392px;
+    line-height: 64px; 
+}
+
+.navigation {
+   
+}
