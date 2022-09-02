@@ -1,25 +1,118 @@
 * {
-    text-align: center;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+    max-width: 100%;
 }
 
 ul {
   list-style: none;  
 }
 
-#about-me {
-    background-color: #F6F6F6;
-}
-
-#portfolio {
-    background-color: #F6F6F6;
-}
-
-#denis-novik {
-    font-weight: 700;
+.name {
     font-size: 47.3392px;
-    line-height: 64px; 
+    line-height: 64px;
+    color: #000000;
+    padding: 0px 0px 0px 0px;
+}
+
+.image {
+    background-position: 30% 50%;
+    background-size: cover;
+}
+
+.image img {
+    width: 100%;
+    padding: 0 0 100px 0;
+}
+
+.container {
+    max-width: 1000px;
+    padding: 0 15px;
 }
 
 .navigation {
-   
+    margin: 0 -20px ;
+    padding: 0;
+    text-align: center;
+}
+
+.navigation li {
+    display: inline-block;
+    padding: 20px 20px;
+}
+.vector {
+    max-width: 100%;
+    margin: 0;
+    border: 1px solid #828282
+    background: #828282;
+}
+
+
+
+h1 {
+    font-size: 40px;
+    margin: 0 0 10px;
+}
+
+h2 {
+    font-size: 34px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 14px;
+    line-height: 20px;
+    color: #828282;
+    padding: 23px 0;
+    width: 70px;
+    height: 37px;
+}
+
+#about-me {
+    background: #F6F6F6;
+    padding: 0 0 100px 0;
+}
+
+.about-me {
+    padding: 100px 0 0 0;
+}
+
+.text-about {
+    text-align: center;
+    padding: 28px 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+}
+
+.all-text-about {
+    width: 480px;
+    height: 246px;
+    max-width: 1000px;
+}
+
+.mid-text {
+    text-align: center;
+    padding: 0 0 75px 0;
+}
+
+#skills {
+    max-width: 1000px;
+}
+
+.skills {
+    padding: 100px 0 44px 0;
+}
+
+.skills-blocks {
+    display: inline-block;
+    text-align: center;
+}
+
+.imagestars {
+    padding: 60px 0;
 }
